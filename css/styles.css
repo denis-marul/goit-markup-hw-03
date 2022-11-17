@@ -1,0 +1,199 @@
+:root {
+  --main-color: #212121;
+  --second-color: #FFFFFF;
+  --third-color: #757575;
+  --black-logo-color: #000000;
+  --special-color: #2196F3;
+  --dark-background-color: #2F303A;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --page-backbround-color: #F5F5F5;
+  --gray-background-color: #F5F4FA;
+  --activ-hero-button: #188CE8;
+}
+
+
+
+body {
+  color: var(--main-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--second-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+
+
+.logo {
+  color: var(--black-logo-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-web-word {
+  color: var(--special-color);
+}
+
+.page-header {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+
+.nav-link {
+  color: var(--main-color);
+}
+
+
+
+
+.contact-link {
+  color: var(--third-color);
+}
+
+.hero-section {
+  background-color: var(--dark-background-color);
+}
+
+.hero-title {
+  color: var(--second-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero-button {
+  color: var(--second-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  background-color: var(--special-color);
+  letter-spacing: 0.06em;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-button:active,
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--activ-hero-button);
+}
+
+.advances-tytles {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.advances-texts {
+  line-height: 1.71;
+  color: var(--third-color);
+}
+
+.specialization-tytle,
+.team-tytle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.team-sectin {
+  background-color: var(--gray-background-color);
+}
+
+.teammate-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.job-tytle {
+  color: var(--third-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active,
+.contact-link:hover,
+.contact-link:focus,
+.contact-link:active,
+.address-link:hover,
+.address-link:focus,
+.address-link:active,
+.footer-contact-link:hover,
+.footer-contact-link:focus,
+.footer-contact-link:active {
+  color: var(--special-color);
+}
+
+.nav-link.current {
+  color: var(--special-color);
+}
+
+.footer {
+  background-color: var(--dark-background-color);
+  line-height: 1.5;
+}
+
+.footer-logo {
+  color: var(--second-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.address-link {
+  color: var(--second-color);
+  font-style: normal;
+}
+
+.footer-contact-link {
+  color: var(--footer-contact-color);
+  font-style: normal;
+}
+
+.portfolio-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  background-color: var(--gray-background-color);
+  border: none;
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button:active {
+  color: var(--second-color);
+  background-color: var(--special-color);
+}
+
+.product-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--main-color);
+  letter-spacing: 0.06em;
+}
+
+.product-type {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--third-color);
+}
